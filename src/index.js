@@ -98,7 +98,7 @@ function BlogPostList(props) {
 }
 
 function BlogSite() {
-    const [darkMode, setDarkMode] = useState('true')
+    const [darkMode, setDarkMode] = useState(false)
 
     function handleClick() {
         setDarkMode(!darkMode)
